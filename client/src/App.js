@@ -9,6 +9,7 @@ const App = () => {
   const [clicks, setClicks] = useState(0);
   const [playing, setPlaying] = useState(false);
   const [time, setTime] = useState(10);
+  const [point, setPoint] = useState(0);
   const tick = () => {
     setTime(prev => prev - 1);
   };

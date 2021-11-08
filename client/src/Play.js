@@ -14,7 +14,7 @@ const Play = props => {
     <div className="Play">
       <div
         className="PlayArea"
-        onClick={handleClick}
+          onClick={handleClick}
       />
       <button onClick={startTimer}>Jugar</button>
       <h2>Clicks: {clicks}</h2>
